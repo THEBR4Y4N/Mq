@@ -24,9 +24,15 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootswatch/dist/darkly/bootstrap.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/popper.js/dist/umd/popper.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MusicIQ"
+    }
+  },
+  "defaultProject": "MusicIQ",
+  "cli": {
+    "analytics": "b27f9e51-7568-4d49-a24d-321da3a52017"
+  }
 }
